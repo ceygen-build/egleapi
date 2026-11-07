@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
                 $settings = \DB::table('settings')->first();
                 if ($settings) {
                     config([
-                        'app.frontend_url' => $settings->website_url ?? 'https://eaglelogistic.com'
+                        'app.frontend_url' => !empty($settings->website_url) ? $settings->website_url : config('app.frontend_url')
                     ]);
                     if (!empty($settings->mail_host)) {
                         config([
