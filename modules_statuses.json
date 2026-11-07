@@ -1,0 +1,18 @@
+{
+    "Auth": true,
+    "User": true,
+    "Hero": true,
+    "Service": true,
+    "Team": true,
+    "About": true,
+    "Blog": true,
+    "Event": true,
+    "Gallery": true,
+    "Career": true,
+    "Faq": true,
+    "Contact": true,
+    "Inquiry": true,
+    "FacebookFeed": true,
+    "Settings": true,
+    "Partner": true
+}

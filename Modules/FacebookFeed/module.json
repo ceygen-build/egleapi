@@ -1,0 +1,11 @@
+{
+    "name": "FacebookFeed",
+    "alias": "facebookfeed",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FacebookFeed\\Providers\\FacebookFeedServiceProvider"
+    ],
+    "files": []
+}

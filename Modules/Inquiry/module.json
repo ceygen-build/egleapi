@@ -1,0 +1,11 @@
+{
+    "name": "Inquiry",
+    "alias": "inquiry",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Inquiry\\Providers\\InquiryServiceProvider"
+    ],
+    "files": []
+}
