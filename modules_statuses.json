@@ -14,5 +14,6 @@
     "Inquiry": true,
     "FacebookFeed": true,
     "Settings": true,
-    "Partner": true
+    "Partner": true,
+    "Analytics": true
 }
