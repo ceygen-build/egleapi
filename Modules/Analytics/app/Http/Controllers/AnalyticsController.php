@@ -275,7 +275,7 @@ class AnalyticsController extends Controller
                 ];
             });
 
-        return response()->json([
+        $payload = [
             'status' => 'success',
             'period' => $period,
             'summary' => $summary,
@@ -286,7 +286,10 @@ class AnalyticsController extends Controller
             'devices' => $devices,
             'browsers' => $browsers,
             'os' => $osList,
-        ]);
+        ];
+        $payload['data'] = $payload;
+
+        return response()->json($payload);
     }
 
     /**
